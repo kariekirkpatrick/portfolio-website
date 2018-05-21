@@ -1,0 +1,330 @@
+/*** Colors: navy blue = #0a3f51  light blue = #82bbc7 purple = #eeecf7 ***/
+ 
+
+
+/*** Base Styles ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: #0a3f51;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.material-icons {
+    color: #82bbc7;
+    font-size: 48px;
+}
+
+/*** Body ***/
+
+#about, #work, #footer {
+    height: 600px;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*** Nav ***/
+
+#nav {
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+#nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+#nav li a:link,
+#nav li a:visited {
+    color: #82bbc7;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom: 0.2s;
+}
+
+#nav li a:hover,
+#nav li a:active {
+    border-bottom: 2px solid #82bbc7;
+    padding-bottom: 3px;
+}
+
+.logo {
+    height: 35px;
+    width: 20px;
+}
+
+/*** Header ***/
+
+#header {
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#header .half-width {
+    float: right;
+}
+
+#header h1 {
+    color: #0a3f51;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 72px;
+    font-weight: 300;
+    margin-top: 300px;
+    margin-bottom: 2px;
+}
+
+#header h3 {
+    
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+
+/*** Text Box ***/
+
+#text-box {
+    background-color: #eeecf7;
+    height: 300px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+#text-box h2 {
+    font-weight: 200;
+    line-height: 150%;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+#text-box h2 span {
+    color: #82bbc7;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+/*** Skills ***/
+
+#skills {
+    height: 300px;
+    margin-top: 70px;
+}
+
+#skills .third-width {
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#middle-box {
+    border-right: 1px dotted #82bbc7;
+    border-left: 1px dotted #82bbc7;
+}
+
+.skills-icon {
+    color: #82bbc7;
+    height: 60px;
+}
+
+#skills h2 {
+    color: #82bbc7;
+    font-family: 'Cabin Sketch', cursive;
+    margin-bottom: 5px;
+}
+
+/*** Text Box 2 ***/
+
+#text-box-2 {
+    background-color: #0a3f51;
+    height: 300px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#text-box-2 h2 {
+    color: #fff;
+    font-weight: 200;
+    line-height: 150%;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+#text-box-2 p {
+    color: #fff;
+}
+
+#text-box-2 span {
+    color: #82bbc7;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+/*** Instagram Feed ***/
+
+.lightwidget-widget {
+    margin-bottom: -4px;
+}
+
+/*** Footer ***/
+
+#footer {
+    background-color: #82bbc7;
+    height: 100px;
+}
+
+#social-box {
+    display: inline-block;
+    padding-left: 115px;
+    padding-top: 15px;
+}
+
+#footer h2 {
+    float: left;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.social-icon {
+    color: #0a3f51;
+    padding-left: 20px;
+    margin-top: 25px;
+    text-align: center;
+    height: 40px;
+}
+
+.icon-small {
+    margin-right: 20px;
+    padding-top: 25px;
+}
+
+#footer-nav {
+    padding-left: 180px;
+}
+
+#footer li {
+    display: inline-block;
+    font-weight: 500;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+#footer a {
+    color: #0a3f51;
+    text-decoration: none;
+}
+
+#footer a:hover,
+#footer a:active {
+    border-bottom: 2px solid #0a3f51;
+    padding-bottom: 3px;
+}
+
+/*** Work Page ***/
+
+#work {
+    height: 1000px;
+}
+
+#work h3 {
+    background-color: #0a3f51; 
+    color: #fff;
+    font-family: 'Cabin Sketch', cursive;
+    height: 150px;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.work-img {
+    padding-bottom: 100px;
+    padding-left: 100px;
+    height: 300px;
+    width: 500px;
+}
+
+#work .half-width {
+    height: 250px;
+}
+
+#work p {
+    margin-top: 30px;
+    padding-right: 100px;
+    padding-left: -20px;
+}
+
+/*** About Page ***/
+
+#about {
+    padding-left: 50px;
+}
+
+#about h1 {
+    font-family: 'Cabin Sketch', cursive;
+    padding-top: 100px;
+}
+
+#about p {
+    
+}
+
+.bio-picture {
+    height: 400px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+/*** Contact Page ***/
+
+#contact-page h1 {
+    font-family: 'Cabin Sketch', cursive;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #eeecf7;
+    height: 200px;
+}
+
+#contact-page .full-width {
+    
+}
